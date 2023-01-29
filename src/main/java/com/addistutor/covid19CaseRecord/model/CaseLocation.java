@@ -3,11 +3,19 @@ package com.addistutor.covid19CaseRecord.model;
 public class CaseLocation {
 	private String state;
 	private String country;
+	private String latitude;
+	//private String country;
 	private int   recent_total_Case;
 	private int  diff;
 	
 	public int getDiff() {
 		return diff;
+	}
+	public String getLatitude() {
+		return latitude;
+	}
+	public void setLatitude(String latitude) {
+		this.latitude = latitude;
 	}
 	public void setDiff(int diff) {
 		this.diff = diff;
