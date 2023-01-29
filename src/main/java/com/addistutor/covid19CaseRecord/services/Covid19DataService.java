@@ -44,6 +44,8 @@ public class Covid19DataService {
 			cl.setState(record.get("Province/State"));
 			cl.setCountry(record.get("Country/Region"));
 			cl.setCountry(record.get("Lat"));
+			cl.setCountry(record.get("Long"));
+
 			int latestTotal=Integer.parseInt(record.get(record.size() -1));
 			int prevDayTotal=Integer.parseInt(record.get(record.size() -2));
 
