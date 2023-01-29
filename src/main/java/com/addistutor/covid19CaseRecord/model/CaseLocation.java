@@ -4,10 +4,16 @@ public class CaseLocation {
 	private String state;
 	private String country;
 	private String latitude;
-	//private String country;
+	private String longitude;
 	private int   recent_total_Case;
 	private int  diff;
 	
+	public String getLongitude() {
+		return longitude;
+	}
+	public void setLongitude(String longitude) {
+		this.longitude = longitude;
+	}
 	public int getDiff() {
 		return diff;
 	}
