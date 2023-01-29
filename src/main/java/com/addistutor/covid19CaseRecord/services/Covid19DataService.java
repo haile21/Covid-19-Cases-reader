@@ -43,7 +43,7 @@ public class Covid19DataService {
 			CaseLocation cl = new CaseLocation(); 
 			cl.setState(record.get("Province/State"));
 			cl.setCountry(record.get("Country/Region"));
-			
+			cl.setCountry(record.get("Lat"));
 			int latestTotal=Integer.parseInt(record.get(record.size() -1));
 			int prevDayTotal=Integer.parseInt(record.get(record.size() -2));
 
