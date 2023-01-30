@@ -45,7 +45,11 @@ public class Covid19DataService {
 			cl.setCountry(record.get("Country/Region"));
 			cl.setCountry(record.get("Lat"));
 			cl.setCountry(record.get("Long"));
+<<<<<<< Updated upstream
 
+=======
+			
+>>>>>>> Stashed changes
 			int latestTotal=Integer.parseInt(record.get(record.size() -1));
 			int prevDayTotal=Integer.parseInt(record.get(record.size() -2));
 
