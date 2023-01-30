@@ -8,6 +8,24 @@ public class CaseLocation {
 	private int   recent_total_Case;
 	private int  diff;
 	
+<<<<<<< Updated upstream
+=======
+	
+	
+	public CaseLocation() {
+		super();
+	}
+	public CaseLocation(String state, String country, String latitude, String longitude, int recent_total_Case,
+			int diff) {
+		super();
+		this.state = state;
+		this.country = country;
+		this.latitude = latitude;
+		this.longitude = longitude;
+		this.recent_total_Case = recent_total_Case;
+		this.diff = diff;
+	}
+>>>>>>> Stashed changes
 	public String getLongitude() {
 		return longitude;
 	}

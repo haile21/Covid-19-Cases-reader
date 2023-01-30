@@ -12,17 +12,18 @@
   <div class="container">
        <h1>Covid19 cases Reader Web APPlication</h1>
       <p>This applications reads Covid-19 total cases globally recorded by Johns Hopkins University</p>
-      <div class="jumbotron">
-		  <h1 class="display-4" th:text="${TotalCases}"></h1>
-		  <p class="lead">Total Covid-19 cases so far</p>
-		  <hr class="my-4">
-         <p>
-         <span>Daily New Cases:</span>
-         <span th:text="${newCases}"></span>
-         </p>
-        
-		   
+      <div class="jumbotron text-white jumbotron-fluid " style="background-color:gray;">
+           <div class="container">
+			  <h1 class="display-4" th:text="${TotalCases}"></h1>
+			  <p class="lead">Total Covid-19 cases so far</p>
+			  <hr class="my-4">
+	         <p class="lead">
+	         <span>Daily New Cases:</span>
+	         <span th:text="${newCases}"></span>
+	         </p>
+         </div>       
       </div>
+<<<<<<< Updated upstream
       <table class="table">
 	      <tr>
 	        <th>State</th>
@@ -40,6 +41,30 @@
 	        <td th:text="${case.recent_total_Case">0</td>
 	        <td th:text="${case.diff}">0</td>
 	      </tr>
+=======
+      
+      <table class="table  table-striped ">
+          <thead class="table-dark">
+		      <tr>
+		        <th>State</th>
+		        <th>Country</th>
+		        <th>Latitude</th>
+		        <th>Latitude</th>	        
+		        <th>Total_Cases_SoFar</th>
+		        <th>Difference</th>
+		      </tr>
+	      <thead>
+	      <tbody>
+		      <tr th:each="case : ${allstates}">
+		        <td th:text="${case.state}"></td>
+		        <td th:text="${case.country}"></td>
+		        <td th:text="${case.latitude}"></td>
+		        <td th:text="${case.longitude}"></td>
+		        <td th:text="${case.recent_total_Case">0</td>
+		        <td th:text="${case.diff}">0</td>
+	      	</tr>
+	      </tbody>
+>>>>>>> Stashed changes
     </table>
   </div>
   </body>
