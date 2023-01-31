@@ -25,3 +25,5 @@ You can run this application following the stpes given in below:</br>
 .Contributions,raising issues, and feature requests are always welcome!
 # Acknowledgments
 I would like to acknowledge Johns Hopkins University for the real and upto date data.
+# License
+This project is <a href="">MIT</a> licensed.
