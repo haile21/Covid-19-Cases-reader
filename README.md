@@ -22,7 +22,7 @@ You can run this application following the stpes given in below:</br>
  . Github: <a href="https://github.com/haile21">@haile</a></br>
  . LinkedIn:<a href="https://www.linkedin.com/in/haileweleslassie/">@haile</a>
 # Contributing
-.Contributions,raising issues, and feature requests are always welcome!
+Contributions,raising issues, and feature requests are always welcome!
 # Acknowledgments
 I would like to acknowledge Johns Hopkins University for the real and upto date data.
 # License
