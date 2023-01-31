@@ -8,9 +8,7 @@ public class CaseLocation {
 	private int   recent_total_Case;
 	private int  diff;
 	
-<<<<<<< Updated upstream
-=======
-	
+ 
 	
 	public CaseLocation() {
 		super();
@@ -25,7 +23,7 @@ public class CaseLocation {
 		this.recent_total_Case = recent_total_Case;
 		this.diff = diff;
 	}
->>>>>>> Stashed changes
+ 
 	public String getLongitude() {
 		return longitude;
 	}
