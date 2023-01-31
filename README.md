@@ -26,4 +26,4 @@ You can run this application following the stpes given in below:</br>
 # Acknowledgments
 I would like to acknowledge Johns Hopkins University for the real and upto date data.
 # License
-This project is <a href="">MIT</a> licensed.
+This project is <a href="https://github.com/haile21/Covid-19-Cases-reader/blob/master/LICENSE">MIT</a> licensed.
